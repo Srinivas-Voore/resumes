@@ -1,0 +1,27 @@
+{
+    "personaldata":{
+        "name":"Srinivas",
+        "email":"v.srinivas@klu.in",
+        "mobile":"9848393213"
+            
+    },
+ 
+    "mydata":[
+        {
+            "name":"KL University",
+            "percentage":"95",
+            "yop":"2023"
+        },
+        {
+            "name":"Sri Chaitanya jr clg(MPC)",
+            "percentage":"100",
+            "yop":"2019"
+        },
+        {
+            "name":"Oxford School",
+            "percentage":"95",
+            "yop":"2017"
+        }
+    ]
+    
+}

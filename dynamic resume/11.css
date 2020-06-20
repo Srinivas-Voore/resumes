@@ -1,0 +1,16 @@
+.main,.left,.right{
+    border:2px solid #000;
+    margin: 1px;    
+} 
+
+.main{
+    display:flex;
+}
+
+.left{
+    flex: 1;
+}
+
+.right{
+    flex: 3;
+}
