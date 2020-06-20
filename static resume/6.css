@@ -1,0 +1,84 @@
+/*for all*/
+.main{
+	width: 100%;
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+} 
+
+/*for card*/
+.card{
+	width:25%;
+	background-color: bisque;
+	text-align: center;
+}
+
+.card>.cardchild1>img{
+	width: 70%;
+	border:2px solid red;
+	border-radius: 25%;
+}
+
+/*for data*/
+.data{
+	width:74%;
+	background-color: rgb(241,180,105);
+	/* text-align: center; */
+	padding-left: 5%;
+}
+
+/*media queries for mobile view*/
+@media only screen (min-device-width: 320px) and (min-device-width: 480px){
+	.card,.data{
+		width: 100%;
+	}
+
+	.card{
+		display: flex;
+	}
+
+	.cardchild1,
+	.cardchild2{
+		width: 49%;
+	}
+}
+
+
+
+#main{
+	/*margin: top right bottom left*/
+	/*margin: 0 auto 0 auto;*/
+	/*4 sides 10% from section margin=>to outer*/
+	background-color: #FF5733;
+	margin: 10%;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5% 0% 0% 5%;
+}
+body{
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+	/*in body padding=>inner wards*/
+	/*padding: 10%;*/
+}
+.card{
+	width: 25%;
+	margin:4%;
+	background-color:#E275CC;
+	text-align:center;
+	border: 3px solid red;
+	border-radius: 25% 0% 25% 0%;
+	/*box-shadow: top right bottom left*/
+	box-shadow: 6px 6px 6px -2px #aaafff;
+}
+
+.card:hover{
+	border-color: green ;
+}
+
+/*for image tag/element in card class*/
+.card>img{
+	width: 50%;
+	height: 50%;
+	border-radius: 25% 25% 25% 25%;
+	margin:2%;
+}
